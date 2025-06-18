@@ -8,7 +8,6 @@ int getStringEntry(char *str, int i) {
 
 } // anonymous namespace
 
-
 int main(int argc, char **argv) {
   char str[256] = "Hello, Paderborn University!";
   int x = getStringEntry(str, 256);
